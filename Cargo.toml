@@ -6,3 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+runty8 = { git = "https://github.com/jjant/runty8" }
+include_dir = "0.7.3"
