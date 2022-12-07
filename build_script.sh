@@ -23,5 +23,6 @@ echo "Replacing placeholder: $placeholder -> $package"
 sed -i.bkp "s/$placeholder/$package/g" generated/index.html
 
 cd generated
+echo "Launching server:"
 serve
 
