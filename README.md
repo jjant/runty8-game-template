@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/jjant/runty8/blob/26ae9f0bb6ae243afb263386c2ec81a0293b6983/img/logo.png" alt="Runty8 Logo" />
+</p>
+
 # runty8-game-template
 
 Use this template to create your own [`runty8`](https://github.com/jjant/runty8) game.
