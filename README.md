@@ -10,7 +10,6 @@ Use this template to create your own [`runty8`](https://github.com/jjant/runty8)
 
 Use `cargo run` to run your game natively.
 
-
 Use `./build_script.sh runty8-game-template` (or your binary's name) to run your game in the browser.
 
 This requires [`serve`](https://github.com/vercel/serve).
@@ -20,3 +19,7 @@ This requires [`serve`](https://github.com/vercel/serve).
 Head over to your [`src/main.rs`](./src/main.rs) to implement your own game.
 
 Feel free to take a look at the code for our port of [Celeste](https://github.com/jjant/runty8/blob/425efffb2dd134eaf5f06d5e752642c6da9926c6/img/celeste.gif) for some guidance, [here](https://github.com/jjant/runty8/blob/425efffb2dd134eaf5f06d5e752642c6da9926c6/examples/celeste/main.rs).
+
+Press the `Escape` key to switch between the game and the editor.
+
+Press `Ctrl+S` to save changes to your assets (sprite sheet, sprite flags, etc).
