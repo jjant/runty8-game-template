@@ -820,7 +820,7 @@ dependencies = [
 [[package]]
 name = "runty8"
 version = "0.1.0"
-source = "git+https://github.com/jjant/runty8#26ae9f0bb6ae243afb263386c2ec81a0293b6983"
+source = "git+https://github.com/jjant/runty8#703c84483c3db8efa86ec0ce947a07d7f81b90d7"
 dependencies = [
  "runty8-core",
  "runty8-editor",
@@ -830,7 +830,7 @@ dependencies = [
 [[package]]
 name = "runty8-core"
 version = "0.1.0"
-source = "git+https://github.com/jjant/runty8#26ae9f0bb6ae243afb263386c2ec81a0293b6983"
+source = "git+https://github.com/jjant/runty8#703c84483c3db8efa86ec0ce947a07d7f81b90d7"
 dependencies = [
  "getrandom",
  "include_dir",
@@ -842,10 +842,11 @@ dependencies = [
 [[package]]
 name = "runty8-editor"
 version = "0.1.0"
-source = "git+https://github.com/jjant/runty8#26ae9f0bb6ae243afb263386c2ec81a0293b6983"
+source = "git+https://github.com/jjant/runty8#703c84483c3db8efa86ec0ce947a07d7f81b90d7"
 dependencies = [
  "instant",
  "itertools",
+ "once_cell",
  "runty8-core",
  "runty8-event-loop",
  "runty8-winit",
@@ -854,7 +855,7 @@ dependencies = [
 [[package]]
 name = "runty8-event-loop"
 version = "0.1.0"
-source = "git+https://github.com/jjant/runty8#26ae9f0bb6ae243afb263386c2ec81a0293b6983"
+source = "git+https://github.com/jjant/runty8#703c84483c3db8efa86ec0ce947a07d7f81b90d7"
 dependencies = [
  "console_error_panic_hook",
  "console_log",
@@ -879,7 +880,7 @@ dependencies = [
 [[package]]
 name = "runty8-runtime"
 version = "0.1.0"
-source = "git+https://github.com/jjant/runty8#26ae9f0bb6ae243afb263386c2ec81a0293b6983"
+source = "git+https://github.com/jjant/runty8#703c84483c3db8efa86ec0ce947a07d7f81b90d7"
 dependencies = [
  "runty8-core",
  "runty8-event-loop",
@@ -890,7 +891,7 @@ dependencies = [
 [[package]]
 name = "runty8-winit"
 version = "0.1.0"
-source = "git+https://github.com/jjant/runty8#26ae9f0bb6ae243afb263386c2ec81a0293b6983"
+source = "git+https://github.com/jjant/runty8#703c84483c3db8efa86ec0ce947a07d7f81b90d7"
 dependencies = [
  "instant",
  "runty8-core",
