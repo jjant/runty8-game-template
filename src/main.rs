@@ -28,6 +28,8 @@ impl App for Game {
 
     fn draw(&mut self, pico8: &mut runty8::Pico8) {
         pico8.cls(0);
+
+        pico8.print("PRESS ARROW KEYS TO MOVE", 4, 4, 7);
         pico8.rectfill(
             self.x - Self::WIDTH / 2,
             self.y - Self::HEIGHT / 2,
